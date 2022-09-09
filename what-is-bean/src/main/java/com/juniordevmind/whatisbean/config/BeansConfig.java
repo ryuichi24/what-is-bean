@@ -1,10 +1,12 @@
 package com.juniordevmind.whatisbean.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 import com.juniordevmind.whatisbean.models.Car;
 import com.juniordevmind.whatisbean.models.Person;
 
+@Configuration
 public class BeansConfig {
 
     @Bean
