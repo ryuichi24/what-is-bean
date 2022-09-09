@@ -6,11 +6,13 @@ public class Person {
     private Car car;
 
     public void doIntro() {
-        System.out.println("Hello, my name is " + name + " and I am " + age + " years old. It is very nice to see you.");
+        System.out
+                .println("Hello, my name is " + name + " and I am " + age + " years old. It is very nice to see you.");
     }
 
     public void showOffCar() {
-        System.out.println("I have a very nice car named " + this.car.getName() + " and it even costs " + this.car.getPrice() + ".");
+        System.out.println("I have a very nice car named " + this.car.getName() + " and it even costs "
+                + this.car.getPrice() + ".");
     }
 
     public String getName() {
